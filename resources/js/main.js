@@ -37,6 +37,7 @@ $( document ).ready(function() {
 	  $("#sixth").show();
 	  $("#fifth").hide();
 	  $('.alarm').get(0).play();
+	  setTimeout(function(){ $('.alarm').get(0).pause(); }, 2000);	  	  	 
 	});	
 	
 });
