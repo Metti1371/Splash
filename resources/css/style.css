@@ -1,62 +1,12 @@
-/* first page */
-.first-page {
-	text-align: center;
-	margin: 20px
-	
-}
-
-.logo {
-	width: 80%;
-	margin-top: 400px;
-	margin-bottom: 50px;
-}
-
 h1 {
-    font-size: 4em;
-	    margin-bottom: 50px;
+    font-size: 56px;
+    margin-bottom: 50px;
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 42px;
 }
 
-
-#get-started {
-	font-size: 40px;
-    padding: 40px;
-    border-radius: 50px;
-    margin-top: 500px;
-}
-
-
-/* Second page */
-.connection-logo {
-		width: 50%;
-	margin-top: 400px;
-	margin-bottom: 50px;
-}
-
-#get-connected {
-	    font-size: 40px;
-    padding: 40px;
-    border-radius: 50px;
-    margin-top: 200px;
-}
-
-
-.icon {
-	width: 200px;
-    margin-top: 40px;
-}
-
-#find-match {
-	font-size: 40px;
-    padding: 40px;
-    border-radius: 50px;
-    margin-top: 400px;
-}
-
-/* */
 .page {
 	text-align: center;
 	margin-top: 20px
@@ -68,22 +18,20 @@ h3 {
 #fifth {display:none}
 #sixth {display:none}
 
-button {
+.btn {
 	font-size: 40px;
     padding: 40px;
     border-radius: 50px;
+	bottom: 100px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .border {
 		border: 5px orange solid;
 }
 
-#great {
-	font-size: 40px;
-    padding: 40px;
-    border-radius: 50px;
-    margin-top: 100px;
-}
 
 .black {
 	    position: fixed;
@@ -105,7 +53,59 @@ button {
     padding: 20px;
 }
 
+.icon-container-row {
+	display:flex; 
+	justify-content: space-evenly;
+}
+
+.icon-container {
+	width: 25%;
+	margin-bottom: 10px;
+}
+
+.icon {
+	width: 200px;
+    margin-top: 40px;
+}
+
+
 .icon-def {
 	font-size: 50px;
+	margin-bottom: 40px
+}
 
+.teammate-container {
+	margin-top:200px;
+	display:flex;
+	justify-content: space-around;
+}
+
+.teammate-pic {
+	width: 250px
+}
+
+.teammate-name {
+	font-size: 50px;
+}
+
+.profile-item-row {
+	display:flex; 
+	justify-content: space-evenly;
+	margin-bottom:10px
+}
+
+.profile-item {
+	text-align:center; 
+	border: 3px solid orange; 
+	padding: 0 50px;
+}
+
+.profile-item-txt {
+	font-size:56px; 
+	font-weight:bold; 
+	color:orange;
+}
+
+.profile-item-icon {
+	width:300px
 }

@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	  $("#second").hide();
 	});
 
-	$(".icon").click(function(){
+	$(".icon-container").click(function(){
 	  $(this).toggleClass("border")
 	});
 	
