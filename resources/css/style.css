@@ -1,0 +1,111 @@
+/* first page */
+.first-page {
+	text-align: center;
+	margin: 20px
+	
+}
+
+.logo {
+	width: 80%;
+	margin-top: 400px;
+	margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 4em;
+	    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+
+#get-started {
+	font-size: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 500px;
+}
+
+
+/* Second page */
+.connection-logo {
+		width: 50%;
+	margin-top: 400px;
+	margin-bottom: 50px;
+}
+
+#get-connected {
+	    font-size: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 200px;
+}
+
+
+.icon {
+	width: 200px;
+    margin-top: 40px;
+}
+
+#find-match {
+	font-size: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 400px;
+}
+
+/* */
+.page {
+	text-align: center;
+	margin-top: 20px
+}
+
+#second {display:none}
+#third {display:none}
+#fourth {display:none}
+#fifth {display:none}
+#sixth {display:none}
+
+button {
+	font-size: 40px;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.border {
+		border: 5px orange solid;
+}
+
+#great {
+	font-size: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 500px;
+}
+
+.black {
+	    position: fixed;
+    background: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.5;
+}
+
+.pop-up {
+    position: fixed;
+    background: white;
+    z-index: 1;
+    font-size: 40px;
+    bottom: 400px;
+    left: 50px;
+    right: 50px;
+    padding: 20px;
+}
+
+.icon-def {
+	font-size: 50px;
+	display: none;
+}

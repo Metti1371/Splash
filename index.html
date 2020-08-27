@@ -1,38 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+  <head>
+  <!--
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="cleartype" content="on">  
+  -->
+  <meta name="viewport" content="user-scalable=no">
+<link rel="apple-touch-icon" sizes="57x57" href="./resources/images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./resources/images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./resources/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./resources/images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./resources/images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./resources/images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./resources/images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./resources/images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./resources/images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./resources/images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./resources/images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./resources/images/favicon-16x16.png">
+<link rel="manifest" href="./resources/images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./resources/images/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> 
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="PWA Splash">
-  <link rel="apple-touch-startup-image" href="launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-  <link rel="apple-touch-startup-image" href="launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="theme-color" content="#ffffff">
-  <title>PWA Splash Screen</title>
-</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-<body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
-  <center>
-    <div style="text-align: left;">
-      <h1>PWA Splash Screens Demo</h1>
-      <p>Add app to your homescreen and launch from app icon to see splash screen.</p>
-      <p>Associated Medium blog post at
-        <a href="https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210">https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210</a>
-      </p>
-    </div>
-  </center>
-</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./resources/js/main.js"></script>
 
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
+  <body>
+	<div class="page" id="first">
+		<img class="logo" src="./resources/images/logo.jpg">
+		<h1>You are not alone trying to manage your weight</h1>
+		<h3>YANA is a real life community for people like you</h3>		
+		<button type="button" class="btn btn-warning" id="get-started">Get Started</button>
+	</div>
+	
+	<div class="page" id="second">
+		<img class="connection-logo" src="./resources/images/connection.png">
+		<h1>Get Connected</h1>
+		<h3>Get connected to a mentor</h3>
+		<h3>Get connected to a community</h3>
+		<h3>Get immediate support when you need it</h3>	
+		
+		<button type="button" class="btn btn-warning" id="get-connected">Get Connected</button>	
+	</div>
+	
+	<div class="page" id="third">
+		<h1 style="color:orange; font-weight:bold; margin-top:100px">Match making</h3>
+		<h3 style="margin-bottom: 100px">To make the perfect match select your interests</h4>
+		<div>
+			<div style="display:flex; justify-content: space-evenly;">
+				<div>
+					<img class="icon" src="./resources/images/icon/Animals.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Cake.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Drink.png">
+					<div class="icon-def">Pet</div>
+				</div>											
+			</div>
+			<div style="display:flex; justify-content: space-evenly;">
+				<div>
+					<img class="icon" src="./resources/images/icon/Entertainment.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Exercise.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Family.png">
+					<div class="icon-def">Pet</div>
+				</div>		
+			</div>
+			<div style="display:flex; justify-content: space-evenly;">
+				<div>
+					<img class="icon" src="./resources/images/icon/Food.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Gaming.png">
+					<div class="icon-def">Pet</div>
+				</div>
+				<div>
+					<img class="icon" src="./resources/images/icon/Music.png">
+					<div class="icon-def">Pet</div>
+				</div>					
+			</div>			
+		</div>
+		
+		<button type="button" class="btn btn-warning" id="find-match">Find the match</button>	
+	</div>
+	
+	<div class="page" id="fourth">
+		<img style="width:90%; margin-top:200px" src="./resources/images/congrat.jpg">
+		<h1>We found your match</h1>	
+		<button type="button" class="btn btn-warning" id="great">Great!</button>	
+	</div>
+	
+	<div class="page" id="fifth">
+		<div style="text-align:left">
+			<img  src="./resources/images/logo.jpg" style="margin:50px;width:30%;">
+		</div>		
+		<div style="display:flex; justify-content: space-evenly;margin-bottom:10px">
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color:orange;">My group</div>
+				<img style="width:300px; " src="./resources/images/icon/MyGroup.png">			
+			</div>
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color: orange">Chat group</div>
+				<img style="width:300px" src="./resources/images/icon/Chat.png">			
+			</div>			
+		</div>
+		<div style="display:flex; justify-content: space-evenly;margin-bottom:10px">
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color:orange;">Calendar</div>
+				<img style="width:300px; " src="./resources/images/icon/Calendar.png">			
+			</div>
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color: orange">Inspiration</div>
+				<img style="width:300px" src="./resources/images/icon/Idea.png">			
+			</div>			
+		</div>
+			<div style="display:flex; justify-content: space-evenly;margin-bottom:10px">
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color:orange;">Challenge</div>
+				<img style="width:300px; " src="./resources/images/icon/Challenge_goal.png">			
+			</div>
+			<div style="text-align:center; border: 3px solid orange; padding: 0 50px;">
+				<div style="font-size:4em; font-weight:bold; color: orange">Settings</div>
+				<img style="width:300px" src="./resources/images/icon/Settings.png">			
+			</div>			
+		</div>
+		
+		<div class="pop-up">When every day life kicks-in and you are being challenged, push the red button to activate your community and get support immediately.</div>
+		<div class="black"></div>
+		
+		<div style="text-align:center">
+			<img id="alarm-icon" style="width:300px" src="./resources/images/alarm.jpg">
+		</div>
+
+		<audio class="alarm" src="./resources/audio/Alarm.mp3" ></audio>		
+	</div>
+	
+	<div class="page" id="sixth">
+		<h1 style="font-weight: bold;margin-top: 400px;">ACTIVATE COMUNITY</h1>
+		<img class="alarm" src="./resources/images/alarm.jpg">	
+	</div>	
+
+  </body>
 </html>
